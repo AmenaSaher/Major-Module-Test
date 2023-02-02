@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+    <div class="wrapper-sec">
+    <div class="heading"> 
+    <div class="title" style="white-space:pre">
+        ROCK
+        PAPER
+        SCISSORS
+    </div>
+    <div class="score">
+        <h3 class="score-heading">YOUR SCORE</h3>
+        <span id="your-score"></span>
+    </div>
+    </div>
+    <div id="body">
+        <img class="user-images" onclick="generateChoice('scissor')"  src="icons/scissor.png" alt="">
+        <img class="user-images" onclick="generateChoice('rock')"  src="icons/rock.png" alt="">
+        <img class="user-images" onclick="generateChoice('paper')"  src="icons/paper.png" alt="">
+    </div>
+    <div class="img-div">
+    <img data-choice="" src="" alt="" id="pc-choice"></img>
+</div>
+    
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

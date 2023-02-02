@@ -1,0 +1,148 @@
+body{
+    background: rgb(14,26,68);
+    background: linear-gradient(180deg, rgba(14,26,68,1) 0%, rgba(52,96,250,1) 100%); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+html {
+    height: 100%;
+}
+
+.heading{
+    width: 800px;
+    height: 158px;
+    border: 1px solid white;
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+.score{
+    width: 139px;
+    height: 128px;
+    border-radius: 9px;
+    background-color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.score-heading{
+    font-size: 17px;
+}
+
+
+#your-score{ 
+    font-size: 40px;
+}
+
+/* #pc-choice{ 
+    
+} */
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 700px;
+}
+
+.img-div{
+    position: absolute;
+    left: 500px;
+    top: 160px;
+}
+
+.user-images{
+    cursor: pointer;
+}
+.user-images:hover{
+    transform: scale(1.05);
+}
+.user-div{
+    border-radius: 50%;
+    background-image: url(/icons/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 500px;
+    top: 160px;
+}
+
+.win-lose{
+    width: 200px;
+    text-align: center;
+    font-size: 29px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: white;
+}
+
+#try-again{
+    width: 200px;
+    text-align: center;
+    color: #6B6B6B;
+    font-size: 20px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 260px;
+    margin: 0 auto;
+    border-radius: 9px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.your-choice-text{
+    position: absolute;
+    left: 0;
+    top:350px;
+}
+
+#body{
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(/icons/triangle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.try_again{
+    width: 200px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-weight: 300;
+}
+
